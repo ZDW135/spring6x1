@@ -7,8 +7,6 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 
 import java.util.Date;
-
-//采用注解的方式使用asjectj
 @Aspect
 public class AdminAspectjLogger {
     public static final String AAP = "execution(* cap.dao.impl.*.*(..))";
